@@ -211,24 +211,3 @@ else
     var stringWidth : int := Font.Width(message, font)  
     Draw.Text(message, maxx div 2 - stringWidth div 2, maxy div 2, font, blue)
 end if
-
-/*    
-% M A I N  P R O G R A M
-
-drawbox(100, 120, 200, 240, blue)
-
-var x : int := -1
-var y : int := -1
-
-loop
-    mouseClick(x, y)
-    put "Mouse at: ", x, " ", y
-
-    if pointInRectangle(100, 120, 200, 240, x, y) then
-	put "You clicked inside the rectangle"
-    else
-	put "You clicked outside the rectangle"
-    end if
-end loop
-*/
-
